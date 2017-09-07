@@ -69,7 +69,6 @@
 #Extra_features1
 {
 
-
 	margin-top:50px;
 	text-align: center;
 	margin-bottom: 0px;
@@ -89,16 +88,26 @@
 	height: 180px;
 	width:200px;
 }
+
+	.siden1
+	{
+		width:430px;
+
+		height:317px;
+	}
+
+	.siden2
+	{
+		width:430px;
+		height:317px;
+	}
+
 .panel2 a
 {
 	font-size:1.6rem;
 	color:black;
 }
-.side_right img
-{
-	width: 450px;
-	height: 320px;
-}
+
 .panel2 .new a
 {
 	margin-left: 20px;
@@ -183,6 +192,24 @@ padding: 10px;
 	}
 	
 }
+@media (max-width: 480px) {
+	
+	.thumbnail .price {
+		font-size: 14px;
+	}
+	
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+	.side_right img
+	{
+		width: 325px;
+		padding-left:0px;
+	}
+	
+	
+}
+
 
 
 /* Portrait & landscape phone */
