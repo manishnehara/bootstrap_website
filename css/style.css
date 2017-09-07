@@ -45,11 +45,9 @@
 }
 #features
 {
-
-	margin-top:50px;
+	margin-top:40px;
 	text-align: center;
-	margin-bottom: 0px;
-}
+	}
 .panel
 {
 	background: grey;
@@ -57,8 +55,7 @@
 }
 .panel a
 {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom:0px;
 }
 .panel img
 {
@@ -89,18 +86,18 @@
 	width:200px;
 }
 
-	.siden1
-	{
-		width:430px;
+.siden1
+{
+	width:430px;
 
-		height:317px;
-	}
+	height:317px;
+}
 
-	.siden2
-	{
-		width:430px;
-		height:317px;
-	}
+.siden2
+{
+	width:430px;
+	height:317px;
+}
 
 .panel2 a
 {
@@ -117,6 +114,16 @@ footer
 {
 	background: lightgrey;
 }
+.contact
+{
+	margin-left: 470px;
+	margin-bottom: 30px;
+	padding: 5px;
+}
+.contact a
+{
+	font-size: 18px;
+}
 ul.products 
 {
 list-style: none;
@@ -125,12 +132,7 @@ margin-left:30px;
 font-size:1.5rem;
 padding: 10px;
 }
-.contact
-{
-	margin-left: 500px;
-	padding: 50px;
-	margin-bottom: 10px;
-}
+
 /* carousel */	
 #myCarousel {
 	margin-top: 90px;
@@ -178,6 +180,7 @@ padding: 10px;
 	.carousel-caption h4 {
 		font-size: 22px;
 	}
+
 }
 @media (min-width: 1200px)
 {
@@ -206,6 +209,15 @@ padding: 10px;
 		width: 325px;
 		padding-left:0px;
 	}
+	#slide1 
+	{
+		background: url('../images/s1.jpg') top center  no-repeat;
+	}
+	#slide2
+	{
+		background: url('../images/s2.jpg') top center no-repeat;
+	}
+	
 	
 	
 }
