@@ -168,18 +168,21 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active" id="slide1">
+					<div class="container">
 						<div class="carousel-caption">
 							<!--h3 style="margin-bottom: 270px;">At the heart of the <strong style="color: yellow">Image</strong></h3-->
 						</div><!-- end carousel-caption-->
 					</div><!-- end item -->
-					
+					</div>
 					<div class="item" id="slide2">
+					<div class="container">
 						<div class="carousel-caption">
 							<h1>
 								<!--h2 style="margin-bottom: 80px;">I am
 								<strong style="color:yellow">NIKON</strong> <h2-->
 							</h1>
 						</div><!-- end carousel-caption-->
+					</div>
 					</div><!-- end item -->
 					
 				</div><!-- carousel-inner -->
@@ -189,7 +192,7 @@
 				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
 			
 			</div><!-- end myCarousel -->
-
+			<div class="container">
 			<div class="row" id="features">
 				<div class="col-sm-4 feature">
 					<div class="panel">
@@ -223,19 +226,20 @@
 					</div><!-- end panel -->
 				</div><!-- end feature -->
 			</div><!-- end features -->
+			</div>
 
 
 
-
+			<div class="container">
 			<div class="row" id="Extra_features1">
 				<div class="col-sm-7">
 					<div class="panel2">
-					<a href="#" target="_blank" class="btn  btn-info btn-block">Latest news</a>
+						<a href="#" target="_blank" class="btn  btn-info btn-block">Latest news</a>
 						<div class="new">
 
 							<img src="images/f4.png" alt="Feature">
 							<a  href="/">
-								<strong>NIKON BRINGS INCREDIBLE ARRAY OF COOLPIX SERIES 2016 TO CELEBRATE THE FESTIVE SEASON</strong>
+								<h6>NIKON BRINGS INCREDIBLE ARRAY OF COOLPIX SERIES 2016 TO CELEBRATE THE FESTIVE SEASON</h6>
 							</a>
 							
 						</div>
@@ -243,7 +247,7 @@
 						<div class="new">
 							<img src="images/f5.jpg" alt="Feature">
 							<a href="/">
-								<strong>NIKON ANNOUNCES THE NEW NIKKOR ZOOM LENS, THE AF-S NIKKOR 70-200MM F/2.8E FL ED VR</strong>
+								<h6>NIKON ANNOUNCES THE NEW NIKKOR ZOOM LENS, THE AF-S NIKKOR 70-200MM F/2.8E FL ED VR</h6>
 						
 							</a>
 						</div>
@@ -251,21 +255,23 @@
 						<div class="new">
 							<img src="images/f6.jpg" alt="Feature">
 							<a href="/">
-								<strong>NIKKOR TRIPLE F2.8 ZOOM LENS SET 100TH ANNIVER- SARY EDITION</strong>
+								<h6>NIKKOR TRIPLE F2.8 ZOOM LENS SET 100TH ANNIVER- SARY EDITION</h6>
 							</a>
 						</div>
 					</div>
 				</div>
-
-				<div class="col-sm-5 side">
-					<div class="side_right">
-						<img src="images/side.png" alt="Offer">
-						<img src="images/side2.jpg" alt="Offer">
+			
+				<div class="col-sm-5 pull-right">
+					<div class="side_right pull-right">					
+						<img class="siden1 im-responsive" src="images/side.png" alt="Offer">
+						<img class="siden2 im-responsive" src="images/side2.jpg" alt="Offer">
 					</div>
 				</div>
 
 			</div>
-		</div>
+			</div>
+			
+		
 <hr>
 
 
@@ -348,18 +354,30 @@
 						<ul>
 					</div><!-- end col-sm-3 -->
 				</div><!-- end row -->
-				<div class="contact">
-				<a href="/">Contact Us </a>
-				|
-				<a href="/">Privacy Policy</a>
-			</div>
+				
 			</div><!-- end container -->
 			
 		</footer>
 
 
 
-		</div>
+
+
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
 	
 	</body>
 </html>
