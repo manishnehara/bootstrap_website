@@ -47,15 +47,6 @@
 {
 	margin-top:40px;
 	text-align: center;
-	}
-.panel
-{
-	background: grey;
-	height: 350px;
-}
-.panel a
-{
-	margin-bottom:0px;
 }
 .panel img
 {
@@ -159,7 +150,7 @@ padding: 10px;
 
 /* phone to tablet */
 
-@media (max-width: 771px) {
+@media (max-width: 768px) {
 	
 	#myCarousel .item { height: 310px; }
 	
@@ -180,7 +171,35 @@ padding: 10px;
 	.carousel-caption h4 {
 		font-size: 22px;
 	}
-
+	.panel img
+	{
+		margin: 0 0 0px;
+		height:40px;
+		width:40px;
+	}
+	.side_right img
+	{
+		width: 315px;
+		padding-left:0px;
+	}
+}
+@media(max-width: 1024px)
+{
+	#mycarousel .item{ height: 520px; }
+	#slide1 
+	{
+		background: url('../images/10.jpg') top center  no-repeat;
+	}
+	#slide2
+	{
+		background: url('../images/12.jpg') top center no-repeat;
+	}
+	.side_right img
+	{
+		width: 310px;
+		padding-left:0px;
+	}
+	
 }
 @media (min-width: 1200px)
 {
